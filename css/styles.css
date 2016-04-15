@@ -1,5 +1,5 @@
 body {
-		background: #E5DADA;
+		background: #E2E2E2;
 		padding-top: 51px;
 	}
 	
@@ -13,6 +13,7 @@ body {
 }
 .navbar-inverse .navbar-brand {
   color: #FFFFFF;
+  
 }
 .navbar-inverse .navbar-brand:hover
  {
@@ -121,4 +122,21 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
 .jumbotron h1,p{
 	
 	/*padding-left: 60px;*/
+}
+..jumbotron div .list-inline{
+  padding-left: 400px;
+}
+.jumbotron div .list-inline li a img{
+  width:32px;
+  height: 34px;
+}
+.jumbotron div .list-inline li a img:hover{
+  height: 45px;
+  width: 45px;
+  transition: width .3s, height .3s;
+
+}
+footer {
+  background-color: #222;
+  color:#FFFFFF;
 }
