@@ -143,3 +143,35 @@ footer {
   background-color: #222;
   color:#FFFFFF;
 }
+footer .list-unstyled li a:link, footer .list-unstyled li a:visited {
+  color:#FFF;
+  
+}
+.info .thumbnail {
+  background: #0B0D33;
+}
+.articulos {
+
+}
+.articulo {
+
+}
+.art-fecha{
+  padding: 10px;
+}
+.art-contenido {
+  padding: 0 10px;
+  font-family: arial;
+}
+.art-info {
+  padding: 0 10px;
+  color: #FFF;
+}
+.fecha-info{
+  padding: 10px;
+  color: #FFF;
+}
+
+.art-contenido {
+
+}
