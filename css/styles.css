@@ -1,11 +1,14 @@
 body {
-		background: #E2E2E2;
+		background: #E6E6E6;
 		padding-top: 51px;
 	}
 	
 	.navbar-header {
-		padding-left: 120px;
+		padding-left: 40px;
 	}
+  .breadcrumb li {
+    margin-left: 20px;
+  }
 
 	.navbar-inverse {
   background-color: #222;
@@ -116,12 +119,12 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   background: url("../img/header3.jpg") no-repeat;
 	color:#fff;
 	padding: 50px 10px;
-  height: 375px;
+  /*height: 375px;*/
   background-size: cover;
 }
 .jumbotron h1,p{
 	
-	/*padding-left: 60px;*/
+	
 }
 ..jumbotron div .list-inline{
   padding-left: 400px;
