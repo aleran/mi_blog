@@ -2,10 +2,13 @@ body {
 		background: #E6E6E6;
 		padding-top: 51px;
 	}
-	
+	/* Navbar*/
 	.navbar-header {
 		padding-left: 40px;
 	}
+  #miNav .navbar-nav li {
+    margin-left: 20px;
+  }
   .breadcrumb li {
     margin-left: 20px;
   }
@@ -130,26 +133,37 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   padding-left: 400px;
 }
 .jumbotron div .list-inline li a img{
-  width:32px;
-  height: 34px;
+  width:45px;
+  height: 45px;
 }
 .jumbotron div .list-inline li a img:hover{
-  height: 45px;
-  width: 45px;
+  height: 70px;
+  width: 70px;
   transition: width .3s, height .3s;
+  -moz-transition: width .3s, height .3s;
+  -o-transition: width .3s, height .3s;
+  -webkit-transition: width .3s, height .3s;
+  -ms-transition: width .3s, height .3s;
 
 }
+
+/*Footer*/
 footer {
-  background-color: #222;
+  background-color: #000;
   color:#FFFFFF;
 }
 footer .list-unstyled li a:link, footer .list-unstyled li a:visited {
   color:#FFF;
   
 }
-.info .thumbnail {
-  background: #0B0D33;
+footer .list-unstyled li a:hover {
+  text-decoration: none;
+  background: #FFF;
+  color: #000;
 }
+
+/*Articulos*/
+
 .articulos {
 
 }
@@ -161,17 +175,39 @@ footer .list-unstyled li a:link, footer .list-unstyled li a:visited {
 }
 .art-contenido {
   padding: 0 10px;
-  font-family: arial;
+  font-family: 'PT Sans Caption', sans-serif;
+  font-size:16px;
+  text-indent: 40px;
+  
 }
 .art-info {
   padding: 0 10px;
-  color: #FFF;
+  color: #000;
+  font-family: 'PT Sans Caption', sans-serif;
+  font-size: 16px;
+  text-indent: 40px;
 }
-.fecha-info{
-  padding: 10px;
-  color: #FFF;
+.art-titulo, .art-fecha, .art-tituloi {
+  font-family: 'Doppio One', sans-serif;
 }
 
-.art-contenido {
+/* seleccion*/
+*::selection {
+  color:#fff;
+  background: #15D9D8;
+}
+
+*::-moz-selection {
+  color:#fff;
+  background:#15D9D8;
+}
+.navbar-brand, .jumbotron, footer .container h3 {
+  font-family: 'Audiowide', cursive;
+  text-shadow: 3px 9px #000000;
 
 }
+#miNav ul li a, footer a, .breadcrumb li a {
+  font-family: 'Doppio One', sans-serif;
+}
+
+
